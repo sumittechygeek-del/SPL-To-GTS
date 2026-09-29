@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: SPL to GTS
-Bundle-SymbolicName: SPL_to_GTS_iflow; singleton:=true
+Bundle-SymbolicName: SPL_to_GTS_iflow_qa; singleton:=true
 Bundle-Version: 1.0.0
 SAP-BundleType: IntegrationFlow
 SAP-NodeType: IFLMAP
@@ -29,5 +29,5 @@ Import-Package: com.sap.esb.application.services.cxf.interceptor,com.sap
  igurator.api,com.sap.esb.camel.jdbc.idempotency.reorg,javax.sql,org.apa
  che.camel.processor.idempotent.jdbc,org.osgi.service.blueprint
 Origin-Bundle-Name: SPL to GTS
-Origin-Bundle-SymbolicName: SPL_to_GTS_iflow
+Origin-Bundle-SymbolicName: SPL_to_GTS_iflow_qa
 
